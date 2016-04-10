@@ -3,7 +3,7 @@ var tessel = require('tessel');
 var http = require('http');
 
 var options = {
-  host: 'https://www.google.ca',
+  host: 'www.google.ca',
   path: '/search?q=hello'
 };
 
