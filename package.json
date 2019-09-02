@@ -6,10 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "www.github.com/tessel/t2-cli",
+  "repository": "git://github.com/admix/tessel.git",
   "keywords": [
     "Tessel"
   ],
   "license": "MIT",
-  "readme": "A bare bones Tessel 2 blinky script."
+  "readme": "A bare bones Tessel 2 blinky script.",
+  "dependencies": {
+    "ambient-attx4": "^0.2.11",
+    "ws": "^7.1.2"
+  }
 }
